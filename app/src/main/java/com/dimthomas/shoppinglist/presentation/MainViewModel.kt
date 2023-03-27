@@ -3,10 +3,7 @@ package com.dimthomas.shoppinglist.presentation
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.dimthomas.shoppinglist.data.ShopListRepositoryImpl
-import com.dimthomas.shoppinglist.domain.DeleteShopItemUseCase
-import com.dimthomas.shoppinglist.domain.EditShopItemUseCase
-import com.dimthomas.shoppinglist.domain.GetShopListUseCase
-import com.dimthomas.shoppinglist.domain.ShopItem
+import com.dimthomas.shoppinglist.domain.*
 
 class MainViewModel: ViewModel() {
 
