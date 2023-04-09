@@ -1,6 +1,5 @@
 package com.dimthomas.shoppinglist.presentation
 
-import androidx.core.text.isDigitsOnly
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -60,7 +59,6 @@ class ShopItemViewModel: ViewModel() {
                 editShopItemUseCase.editShopItem(item)
                 finishWork()
             }
-
         }
     }
 
@@ -89,11 +87,11 @@ class ShopItemViewModel: ViewModel() {
         return result
     }
 
-    public fun resetErrorInputName() {
+    fun resetErrorInputName() {
         _errorInputName.value = false
     }
 
-    public fun resetErrorInputCount() {
+    fun resetErrorInputCount() {
         _errorInputCount.value = false
     }
 
